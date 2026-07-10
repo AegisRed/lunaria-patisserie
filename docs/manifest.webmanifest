@@ -1,0 +1,11 @@
+{
+  "name": "Lunaria Atelier",
+  "short_name": "Lunaria",
+  "description": "Pâtisserie after dark — handcrafted desserts and gift boxes.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d0a12",
+  "theme_color": "#17111f",
+  "icons": [{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

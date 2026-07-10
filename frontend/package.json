@@ -1,0 +1,13 @@
+{
+  "name": "lunaria-atelier-storefront",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free bilingual storefront for Lunaria Atelier.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/app.js && node --check src/sw.js && node scripts/check-links.mjs",
+    "test": "npm run check && npm run build"
+  },
+  "engines": { "node": ">=20" }
+}

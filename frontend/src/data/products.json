@@ -1,0 +1,426 @@
+[
+  {
+    "id": "prd_moonberry_tart",
+    "slug": "moonberry-tart",
+    "category": "signature",
+    "priceCents": 1400,
+    "name": {
+      "en": "Moonberry Tart",
+      "ru": "Тарт «Лунная ягода»"
+    },
+    "description": {
+      "en": "Blackcurrant crémeux, almond sable and a violet mirror glaze with a bright berry finish.",
+      "ru": "Кремё из чёрной смородины, миндальное сабле и фиолетовая зеркальная глазурь с ярким ягодным послевкусием."
+    },
+    "short": {
+      "en": "Blackcurrant · almond · violet",
+      "ru": "Смородина · миндаль · фиалка"
+    },
+    "image": "assets/products/moonberry-tart.svg",
+    "badge": {
+      "en": "Bestseller",
+      "ru": "Хит"
+    },
+    "tags": [
+      "signature",
+      "vegetarian"
+    ],
+    "allergens": [
+      "gluten",
+      "nuts",
+      "eggs",
+      "milk"
+    ],
+    "stock": 18,
+    "featured": true,
+    "rating": 4.9
+  },
+  {
+    "id": "prd_pistachio_silk",
+    "slug": "pistachio-silk",
+    "category": "pastry",
+    "priceCents": 1250,
+    "name": {
+      "en": "Pistachio Silk",
+      "ru": "Фисташковый шёлк"
+    },
+    "description": {
+      "en": "Pistachio praline, silky mascarpone mousse and a crisp feuilletine heart.",
+      "ru": "Фисташковое пралине, шелковистый мусс из маскарпоне и хрустящее сердце из фейетина."
+    },
+    "short": {
+      "en": "Pistachio · mascarpone · feuilletine",
+      "ru": "Фисташка · маскарпоне · фейетин"
+    },
+    "image": "assets/products/pistachio-silk.svg",
+    "badge": {
+      "en": "New",
+      "ru": "Новинка"
+    },
+    "tags": [
+      "pastry",
+      "vegetarian"
+    ],
+    "allergens": [
+      "gluten",
+      "nuts",
+      "eggs",
+      "milk"
+    ],
+    "stock": 12,
+    "featured": true,
+    "rating": 4.8
+  },
+  {
+    "id": "prd_caramel_eclipse",
+    "slug": "caramel-eclipse",
+    "category": "signature",
+    "priceCents": 1350,
+    "name": {
+      "en": "Caramel Eclipse",
+      "ru": "Карамельное затмение"
+    },
+    "description": {
+      "en": "Dark chocolate mousse, smoked caramel and cocoa biscuit under a satin glaze.",
+      "ru": "Мусс из тёмного шоколада, копчёная карамель и какао-бисквит под сатиновой глазурью."
+    },
+    "short": {
+      "en": "Dark chocolate · smoked caramel",
+      "ru": "Тёмный шоколад · копчёная карамель"
+    },
+    "image": "assets/products/caramel-eclipse.svg",
+    "badge": {
+      "en": "Chef's choice",
+      "ru": "Выбор шефа"
+    },
+    "tags": [
+      "signature"
+    ],
+    "allergens": [
+      "gluten",
+      "eggs",
+      "milk",
+      "soy"
+    ],
+    "stock": 16,
+    "featured": true,
+    "rating": 5.0
+  },
+  {
+    "id": "prd_rose_cloud",
+    "slug": "rose-cloud",
+    "category": "pastry",
+    "priceCents": 1100,
+    "name": {
+      "en": "Rose Cloud",
+      "ru": "Розовое облако"
+    },
+    "description": {
+      "en": "Lychee mousse, raspberry confit and rosewater on a delicate vanilla sponge.",
+      "ru": "Мусс из личи, малиновое конфи и розовая вода на нежном ванильном бисквите."
+    },
+    "short": {
+      "en": "Lychee · raspberry · rose",
+      "ru": "Личи · малина · роза"
+    },
+    "image": "assets/products/rose-cloud.svg",
+    "badge": {
+      "en": "Floral",
+      "ru": "Цветочный"
+    },
+    "tags": [
+      "pastry",
+      "vegetarian"
+    ],
+    "allergens": [
+      "gluten",
+      "eggs",
+      "milk"
+    ],
+    "stock": 20,
+    "featured": false,
+    "rating": 4.7
+  },
+  {
+    "id": "prd_citrus_orbit",
+    "slug": "citrus-orbit",
+    "category": "vegan",
+    "priceCents": 1050,
+    "name": {
+      "en": "Citrus Orbit",
+      "ru": "Цитрусовая орбита"
+    },
+    "description": {
+      "en": "Yuzu curd, lemon gel and coconut mousse on a gluten-free almond base.",
+      "ru": "Крем из юдзу, лимонный гель и кокосовый мусс на безглютеновой миндальной основе."
+    },
+    "short": {
+      "en": "Yuzu · lemon · coconut",
+      "ru": "Юдзу · лимон · кокос"
+    },
+    "image": "assets/products/citrus-orbit.svg",
+    "badge": {
+      "en": "Vegan",
+      "ru": "Веган"
+    },
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": [
+      "nuts"
+    ],
+    "stock": 14,
+    "featured": true,
+    "rating": 4.8
+  },
+  {
+    "id": "prd_cocoa_nocturne",
+    "slug": "cocoa-nocturne",
+    "category": "cake",
+    "priceCents": 1500,
+    "name": {
+      "en": "Cocoa Nocturne",
+      "ru": "Какао-ноктюрн"
+    },
+    "description": {
+      "en": "Single-origin cocoa, espresso ganache and roasted hazelnut in a velvet shell.",
+      "ru": "Какао одного происхождения, эспрессо-ганаш и жареный фундук в бархатной оболочке."
+    },
+    "short": {
+      "en": "Cocoa · espresso · hazelnut",
+      "ru": "Какао · эспрессо · фундук"
+    },
+    "image": "assets/products/cocoa-nocturne.svg",
+    "badge": {
+      "en": "Intense",
+      "ru": "Насыщенный"
+    },
+    "tags": [
+      "cake"
+    ],
+    "allergens": [
+      "gluten",
+      "nuts",
+      "eggs",
+      "milk",
+      "soy"
+    ],
+    "stock": 10,
+    "featured": false,
+    "rating": 4.9
+  },
+  {
+    "id": "prd_vanilla_comet",
+    "slug": "vanilla-comet",
+    "category": "pastry",
+    "priceCents": 950,
+    "name": {
+      "en": "Vanilla Comet",
+      "ru": "Ванильная комета"
+    },
+    "description": {
+      "en": "Madagascar vanilla choux, salted cream and a crackling pearl sugar crown.",
+      "ru": "Шу с мадагаскарской ванилью, солёным кремом и хрустящей короной из жемчужного сахара."
+    },
+    "short": {
+      "en": "Vanilla · salted cream · choux",
+      "ru": "Ваниль · солёный крем · шу"
+    },
+    "image": "assets/products/vanilla-comet.svg",
+    "badge": {
+      "en": "Classic",
+      "ru": "Классика"
+    },
+    "tags": [
+      "pastry",
+      "vegetarian"
+    ],
+    "allergens": [
+      "gluten",
+      "eggs",
+      "milk"
+    ],
+    "stock": 24,
+    "featured": false,
+    "rating": 4.6
+  },
+  {
+    "id": "prd_hazelnut_velvet",
+    "slug": "hazelnut-velvet",
+    "category": "cake",
+    "priceCents": 1200,
+    "name": {
+      "en": "Hazelnut Velvet",
+      "ru": "Фундучный бархат"
+    },
+    "description": {
+      "en": "Roasted hazelnut dacquoise, milk chocolate mousse and a praline crunch.",
+      "ru": "Фундучный дакуаз, мусс из молочного шоколада и хрустящее пралине."
+    },
+    "short": {
+      "en": "Hazelnut · milk chocolate · praline",
+      "ru": "Фундук · молочный шоколад · пралине"
+    },
+    "image": "assets/products/hazelnut-velvet.svg",
+    "badge": {
+      "en": "Rich",
+      "ru": "Бархатный"
+    },
+    "tags": [
+      "cake"
+    ],
+    "allergens": [
+      "gluten",
+      "nuts",
+      "eggs",
+      "milk",
+      "soy"
+    ],
+    "stock": 15,
+    "featured": false,
+    "rating": 4.8
+  },
+  {
+    "id": "prd_matcha_mist",
+    "slug": "matcha-mist",
+    "category": "vegan",
+    "priceCents": 1150,
+    "name": {
+      "en": "Matcha Mist",
+      "ru": "Матча-туман"
+    },
+    "description": {
+      "en": "Ceremonial matcha mousse, pear confit and toasted sesame sable.",
+      "ru": "Мусс из церемониальной матчи, грушевое конфи и сабле с жареным кунжутом."
+    },
+    "short": {
+      "en": "Matcha · pear · sesame",
+      "ru": "Матча · груша · кунжут"
+    },
+    "image": "assets/products/matcha-mist.svg",
+    "badge": {
+      "en": "Vegan",
+      "ru": "Веган"
+    },
+    "tags": [
+      "vegan"
+    ],
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "stock": 11,
+    "featured": false,
+    "rating": 4.7
+  },
+  {
+    "id": "prd_ruby_opera",
+    "slug": "ruby-opera",
+    "category": "cake",
+    "priceCents": 1450,
+    "name": {
+      "en": "Ruby Opera",
+      "ru": "Рубиновая опера"
+    },
+    "description": {
+      "en": "Raspberry-soaked joconde, ruby chocolate ganache and hibiscus buttercream.",
+      "ru": "Жоконд с малиновой пропиткой, ганаш из рубинового шоколада и крем с гибискусом."
+    },
+    "short": {
+      "en": "Raspberry · ruby chocolate · hibiscus",
+      "ru": "Малина · рубиновый шоколад · гибискус"
+    },
+    "image": "assets/products/ruby-opera.svg",
+    "badge": {
+      "en": "Limited",
+      "ru": "Лимитированный"
+    },
+    "tags": [
+      "cake"
+    ],
+    "allergens": [
+      "gluten",
+      "nuts",
+      "eggs",
+      "milk",
+      "soy"
+    ],
+    "stock": 8,
+    "featured": true,
+    "rating": 4.9
+  },
+  {
+    "id": "prd_constellation_box",
+    "slug": "constellation-box",
+    "category": "gift",
+    "priceCents": 3600,
+    "name": {
+      "en": "Constellation Box",
+      "ru": "Набор «Созвездие»"
+    },
+    "description": {
+      "en": "Six signature petits gâteaux in a reusable midnight-blue gift box.",
+      "ru": "Шесть фирменных пирожных в многоразовой подарочной коробке цвета ночного неба."
+    },
+    "short": {
+      "en": "6 desserts · gift wrapping",
+      "ru": "6 десертов · подарочная упаковка"
+    },
+    "image": "assets/products/constellation-box.svg",
+    "badge": {
+      "en": "Gift-ready",
+      "ru": "Для подарка"
+    },
+    "tags": [
+      "gift"
+    ],
+    "allergens": [
+      "gluten",
+      "nuts",
+      "eggs",
+      "milk",
+      "soy"
+    ],
+    "stock": 9,
+    "featured": true,
+    "rating": 5.0
+  },
+  {
+    "id": "prd_celebration_cake",
+    "slug": "celebration-cake",
+    "category": "gift",
+    "priceCents": 5800,
+    "name": {
+      "en": "Celestial Celebration Cake",
+      "ru": "Праздничный торт «Небесный»"
+    },
+    "description": {
+      "en": "A 16 cm made-to-order mousse cake for 6–8 guests, finished with edible stars.",
+      "ru": "Муссовый торт 16 см на заказ для 6–8 гостей, украшенный съедобными звёздами."
+    },
+    "short": {
+      "en": "Made to order · serves 6–8",
+      "ru": "На заказ · 6–8 порций"
+    },
+    "image": "assets/products/celebration-cake.svg",
+    "badge": {
+      "en": "48h pre-order",
+      "ru": "Предзаказ 48 ч"
+    },
+    "tags": [
+      "gift",
+      "cake"
+    ],
+    "allergens": [
+      "gluten",
+      "nuts",
+      "eggs",
+      "milk",
+      "soy"
+    ],
+    "stock": 6,
+    "featured": false,
+    "rating": 4.9
+  }
+]

@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en" data-theme="night">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17111f">
+  <meta name="description" content="Lunaria Atelier — celestial petits gâteaux, celebration cakes and gift boxes, crafted in small batches.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lunaria Atelier — Pâtisserie after dark">
+  <meta property="og:description" content="Celestial desserts, gift boxes and made-to-order celebration cakes.">
+  <meta property="og:image" content="assets/products/constellation-box.svg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="assets/products/moonberry-tart.svg" as="image" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Lunaria Atelier — Pâtisserie after dark</title>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Bakery",
+    "name":"Lunaria Atelier",
+    "description":"Celestial petits gâteaux, celebration cakes and gift boxes.",
+    "priceRange":"€€",
+    "servesCuisine":"Patisserie",
+    "sameAs":[]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to catalog</a>
+
+  <div class="announcement" role="status">
+    <span data-i18n="announcement">Complimentary gift wrapping on orders over €45</span>
+    <span class="announcement__spark" aria-hidden="true">✦</span>
+    <span data-i18n="announcementSecondary">Freshly made in small batches</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="site-header__inner shell">
+      <a class="brand" href="#top" aria-label="Lunaria Atelier home">
+        <img src="assets/logo.svg" alt="Lunaria Atelier" width="180" height="42">
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#catalog" data-i18n="navShop">Shop</a>
+        <a href="#gift-builder" data-i18n="navGifts">Gift boxes</a>
+        <a href="#story" data-i18n="navStory">Our story</a>
+        <a href="#visit" data-i18n="navVisit">Visit</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="search-toggle" type="button" aria-label="Open product search" aria-controls="catalog-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+        </button>
+        <div class="language-switch" aria-label="Language selector">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+        </div>
+        <button class="cart-button" id="cart-toggle" type="button" aria-label="Open cart" aria-controls="cart-drawer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+          <span data-i18n="cart">Cart</span>
+          <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+        </button>
+        <button class="menu-button" id="menu-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#catalog" data-i18n="navShop">Shop</a>
+      <a href="#gift-builder" data-i18n="navGifts">Gift boxes</a>
+      <a href="#story" data-i18n="navStory">Our story</a>
+      <a href="#visit" data-i18n="navVisit">Visit</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero__copy reveal">
+        <p class="eyebrow"><span aria-hidden="true">✦</span> <span data-i18n="heroEyebrow">A nocturnal pâtisserie</span></p>
+        <h1 id="hero-title"><span data-i18n="heroTitleLine1">Desserts made</span><br><em data-i18n="heroTitleLine2">like small constellations.</em></h1>
+        <p class="hero__lede" data-i18n="heroLead">Layered by hand, finished with a little theatre, and baked fresh for evenings worth remembering.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#catalog"><span data-i18n="shopCollection">Shop the collection</span><span aria-hidden="true">↗</span></a>
+          <button class="button button--ghost" type="button" data-scroll-to="story"><span data-i18n="discoverStory">Discover our story</span><span aria-hidden="true">→</span></button>
+        </div>
+        <dl class="hero__proof" aria-label="Store highlights">
+          <div><dt>4.9</dt><dd data-i18n="heroProofRating">average rating</dd></div>
+          <div><dt>24h</dt><dd data-i18n="heroProofFresh">made fresh</dd></div>
+          <div><dt>12</dt><dd data-i18n="heroProofFlavours">seasonal flavours</dd></div>
+        </dl>
+      </div>
+      <div class="hero__visual reveal reveal--delay" aria-label="Featured dessert composition">
+        <div class="orbit orbit--one" aria-hidden="true"></div>
+        <div class="orbit orbit--two" aria-hidden="true"></div>
+        <figure class="hero-card hero-card--main">
+          <img src="assets/products/moonberry-tart.svg" alt="Moonberry Tart" width="800" height="620">
+          <figcaption><span data-i18n="heroProduct">Moonberry Tart</span><strong>€14</strong></figcaption>
+        </figure>
+        <figure class="hero-card hero-card--mini hero-card--top">
+          <img src="assets/products/pistachio-silk.svg" alt="Pistachio Silk" width="800" height="620">
+        </figure>
+        <figure class="hero-card hero-card--mini hero-card--bottom">
+          <img src="assets/products/ruby-opera.svg" alt="Ruby Opera" width="800" height="620">
+        </figure>
+        <div class="hero-seal" aria-hidden="true"><span>HAND<br>CRAFTED</span></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Product qualities">
+      <div class="marquee__track">
+        <span data-i18n="marquee1">Small-batch</span><b>✦</b><span data-i18n="marquee2">Natural ingredients</span><b>✦</b><span data-i18n="marquee3">Gift-ready</span><b>✦</b><span data-i18n="marquee4">Seasonal menu</span><b>✦</b>
+        <span data-i18n="marquee1">Small-batch</span><b>✦</b><span data-i18n="marquee2">Natural ingredients</span><b>✦</b><span data-i18n="marquee3">Gift-ready</span><b>✦</b><span data-i18n="marquee4">Seasonal menu</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="catalog-section shell" id="catalog" aria-labelledby="catalog-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow" data-i18n="catalogEyebrow">The current constellation</p>
+          <h2 id="catalog-title" data-i18n="catalogTitle">Choose your little obsession.</h2>
+        </div>
+        <p data-i18n="catalogLead">Every piece is layered, glazed and decorated by hand. Quantities reset each morning.</p>
+      </div>
+
+      <div class="catalog-toolbar" aria-label="Catalog controls">
+        <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Product categories">
+          <button type="button" role="tab" aria-selected="true" data-category="all" data-i18n="categoryAll">All</button>
+          <button type="button" role="tab" aria-selected="false" data-category="signature" data-i18n="categorySignature">Signature</button>
+          <button type="button" role="tab" aria-selected="false" data-category="pastry" data-i18n="categoryPastry">Pastries</button>
+          <button type="button" role="tab" aria-selected="false" data-category="cake" data-i18n="categoryCake">Cakes</button>
+          <button type="button" role="tab" aria-selected="false" data-category="gift" data-i18n="categoryGift">Gifts</button>
+          <button type="button" role="tab" aria-selected="false" data-category="vegan" data-i18n="categoryVegan">Vegan</button>
+        </div>
+        <div class="catalog-tools">
+          <label class="search-field" for="catalog-search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+            <span class="sr-only" data-i18n="searchProducts">Search products</span>
+            <input id="catalog-search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Search flavours…">
+          </label>
+          <label class="sort-field">
+            <span class="sr-only" data-i18n="sortProducts">Sort products</span>
+            <select id="catalog-sort">
+              <option value="featured" data-i18n="sortFeatured">Featured</option>
+              <option value="price-asc" data-i18n="sortPriceLow">Price: low to high</option>
+              <option value="price-desc" data-i18n="sortPriceHigh">Price: high to low</option>
+              <option value="rating" data-i18n="sortRating">Top rated</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <span aria-hidden="true">☾</span>
+        <h3 data-i18n="emptyTitle">Nothing in this orbit.</h3>
+        <p data-i18n="emptyText">Try another flavour, category or search.</p>
+        <button class="button button--ghost" id="reset-filters" type="button" data-i18n="resetFilters">Reset filters</button>
+      </div>
+    </section>
+
+    <section class="gift-builder shell" id="gift-builder" aria-labelledby="gift-title">
+      <div class="gift-builder__visual reveal">
+        <img src="assets/products/constellation-box.svg" alt="Constellation gift box" width="800" height="620">
+        <div class="floating-note floating-note--one"><strong>6</strong><span data-i18n="giftPieces">pieces</span></div>
+        <div class="floating-note floating-note--two"><strong>∞</strong><span data-i18n="giftCombinations">combinations</span></div>
+      </div>
+      <div class="gift-builder__copy reveal reveal--delay">
+        <p class="eyebrow" data-i18n="giftEyebrow">Build a constellation</p>
+        <h2 id="gift-title" data-i18n="giftTitle">A gift box with no dull stars.</h2>
+        <p data-i18n="giftLead">Pick six individual desserts. We arrange them in a keepsake box, add a handwritten card, and make you look impossibly thoughtful.</p>
+        <ol class="gift-steps">
+          <li><span>01</span><div><strong data-i18n="giftStep1Title">Choose six</strong><p data-i18n="giftStep1Text">Mix signatures, seasonal pieces and vegan options.</p></div></li>
+          <li><span>02</span><div><strong data-i18n="giftStep2Title">Write a note</strong><p data-i18n="giftStep2Text">Up to 180 characters, handwritten on textured paper.</p></div></li>
+          <li><span>03</span><div><strong data-i18n="giftStep3Title">Pick a date</strong><p data-i18n="giftStep3Text">Collect in the atelier or choose local delivery.</p></div></li>
+        </ol>
+        <button class="button button--primary" id="add-gift-box" type="button"><span data-i18n="addGiftBox">Add gift box</span><span aria-hidden="true">＋</span></button>
+      </div>
+    </section>
+
+    <section class="story-section" id="story" aria-labelledby="story-title">
+      <div class="shell story-section__inner">
+        <div class="story-card story-card--quote reveal">
+          <p class="eyebrow" data-i18n="storyEyebrow">Our philosophy</p>
+          <blockquote data-i18n="storyQuote">“A dessert should be familiar enough to tempt you — and strange enough to haunt you.”</blockquote>
+          <div class="signature"><span>É. Lunard</span><small data-i18n="founder">Founder & pastry chef</small></div>
+        </div>
+        <div class="story-card story-card--image reveal reveal--delay" aria-hidden="true">
+          <div class="story-moon"></div><div class="story-lines"></div><span>2019</span>
+        </div>
+        <div class="story-card story-card--text reveal">
+          <h2 id="story-title" data-i18n="storyTitle">Classical technique. A slightly unruly imagination.</h2>
+          <p data-i18n="storyText1">Lunaria began after midnight in a borrowed kitchen: one mixer, two trays and a stubborn idea that pastry could feel cinematic.</p>
+          <p data-i18n="storyText2">Today our small team still makes every mousse, biscuit, gel and glaze in-house. The menu changes with the season; the obsession with detail does not.</p>
+          <a href="#visit" class="text-link"><span data-i18n="meetAtelier">Meet the atelier</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews shell" aria-labelledby="reviews-title">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow" data-i18n="reviewsEyebrow">Notes from our guests</p><h2 id="reviews-title" data-i18n="reviewsTitle">Sweet words, no bribery.</h2></div>
+        <div class="review-score"><strong>4.9</strong><span aria-label="5 stars">★★★★★</span><small data-i18n="reviewCount">from 328 verified orders</small></div>
+      </div>
+      <div class="review-grid">
+        <article class="review-card reveal"><div class="review-card__stars">★★★★★</div><p data-i18n="review1">“The Caramel Eclipse somehow tastes elegant and dangerous. I ordered six more before finishing the first.”</p><footer><span>AK</span><div><strong>Anna K.</strong><small data-i18n="verifiedBuyer">Verified buyer</small></div></footer></article>
+        <article class="review-card reveal reveal--delay"><div class="review-card__stars">★★★★★</div><p data-i18n="review2">“The box looked like jewellery and survived a 40-minute drive perfectly. The pistachio one disappeared first.”</p><footer><span>DM</span><div><strong>Daniel M.</strong><small data-i18n="verifiedBuyer">Verified buyer</small></div></footer></article>
+        <article class="review-card reveal"><div class="review-card__stars">★★★★★</div><p data-i18n="review3">“Finally, a vegan dessert that is not an apology. Citrus Orbit is bright, creamy and genuinely beautiful.”</p><footer><span>IR</span><div><strong>Irina R.</strong><small data-i18n="verifiedBuyer">Verified buyer</small></div></footer></article>
+      </div>
+    </section>
+
+    <section class="visit-section shell" id="visit" aria-labelledby="visit-title">
+      <div class="visit-section__map reveal" aria-label="Decorative location map">
+        <svg viewBox="0 0 680 480" role="img" aria-label="Stylised map to the Lunaria atelier"><path d="M-20 90c120 70 195-30 300 38s143 4 245 63 134 14 190-12M-10 330c126-84 199 10 286-55s150-41 226 22 138 32 197-26"/><path d="M90-10c-12 102 40 160 2 239s14 162-9 270M398-20c-45 95 31 154 5 238s48 149 10 281"/><circle cx="399" cy="236" r="13"/><circle cx="399" cy="236" r="31"/><path d="M399 196v-80"/><text x="420" y="128">LUNARIA</text></svg>
+      </div>
+      <div class="visit-section__copy reveal reveal--delay">
+        <p class="eyebrow" data-i18n="visitEyebrow">Come after the moon rises</p>
+        <h2 id="visit-title" data-i18n="visitTitle">Visit the atelier.</h2>
+        <p data-i18n="visitLead">Watch the final glazing through the open kitchen, collect your order, or stay for an espresso and something reckless.</p>
+        <dl class="visit-details">
+          <div><dt data-i18n="addressLabel">Address</dt><dd>17 Rue des Étoiles<br>1204 Genève</dd></div>
+          <div><dt data-i18n="hoursLabel">Opening hours</dt><dd data-i18n="hoursValue">Tue–Sun · 11:00–20:00<br>Monday · closed</dd></div>
+          <div><dt data-i18n="contactLabel">Contact</dt><dd><a href="mailto:hello@lunaria.example">hello@lunaria.example</a><br><a href="tel:+41225550177">+41 22 555 01 77</a></dd></div>
+        </dl>
+        <a class="button button--ghost" href="https://www.openstreetmap.org" target="_blank" rel="noreferrer"><span data-i18n="openMap">Open map</span><span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="shell newsletter__inner reveal">
+        <div><p class="eyebrow" data-i18n="newsletterEyebrow">A little secret, occasionally</p><h2 data-i18n="newsletterTitle">New flavours. Midnight drops. No spam.</h2></div>
+        <form class="newsletter-form" id="newsletter-form" novalidate>
+          <label for="newsletter-email" class="sr-only" data-i18n="emailAddress">Email address</label>
+          <input id="newsletter-email" name="email" type="email" autocomplete="email" required data-i18n-placeholder="emailPlaceholder" placeholder="you@example.com">
+          <button type="submit"><span data-i18n="subscribe">Subscribe</span><span aria-hidden="true">→</span></button>
+          <p class="form-error" id="newsletter-error" role="alert"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__grid">
+      <div class="footer-brand"><img src="assets/logo.svg" alt="Lunaria Atelier" width="180" height="42"><p data-i18n="footerTagline">Pâtisserie after dark.<br>Handcrafted in Genève.</p></div>
+      <div><h3 data-i18n="footerShop">Shop</h3><a href="#catalog" data-i18n="categorySignature">Signature</a><a href="#catalog" data-i18n="categoryCake">Cakes</a><a href="#gift-builder" data-i18n="categoryGift">Gifts</a><a href="#catalog" data-i18n="categoryVegan">Vegan</a></div>
+      <div><h3 data-i18n="footerHelp">Help</h3><a href="#faq" data-i18n="delivery">Delivery</a><a href="#faq" data-i18n="allergens">Allergens</a><a href="#faq" data-i18n="careGuide">Care guide</a><a href="mailto:hello@lunaria.example" data-i18n="contactLabel">Contact</a></div>
+      <div><h3 data-i18n="footerFollow">Follow the crumbs</h3><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">TikTok</a></div>
+    </div>
+    <div class="shell site-footer__bottom"><span>© <span id="current-year"></span> Lunaria Atelier</span><div><a href="#" data-i18n="privacy">Privacy</a><a href="#" data-i18n="terms">Terms</a><a href="#" data-i18n="cookies">Cookies</a></div><button type="button" data-scroll-to="top"><span data-i18n="backToTop">Back to top</span> ↑</button></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-hidden="true">
+    <header><div><p class="eyebrow" data-i18n="yourSelection">Your selection</p><h2 id="cart-title" data-i18n="cartTitle">The dessert box</h2></div><button class="icon-button" id="cart-close" type="button" aria-label="Close cart">×</button></header>
+    <div class="cart-drawer__body" id="cart-items"></div>
+    <div class="cart-empty" id="cart-empty"><span aria-hidden="true">☾</span><h3 data-i18n="cartEmptyTitle">A tragically empty box.</h3><p data-i18n="cartEmptyText">Choose something beautiful. Restraint is overrated.</p><button class="button button--ghost" id="cart-shop" type="button" data-i18n="shopCollection">Shop the collection</button></div>
+    <footer class="cart-summary" id="cart-summary" hidden>
+      <div><span data-i18n="subtotal">Subtotal</span><strong id="cart-subtotal">€0.00</strong></div>
+      <p><span aria-hidden="true">✦</span> <span data-i18n="deliveryCalculated">Delivery is calculated at checkout</span></p>
+      <button class="button button--primary button--wide" id="checkout-open" type="button"><span data-i18n="checkout">Checkout</span><span aria-hidden="true">→</span></button>
+      <button class="text-button" id="clear-cart" type="button" data-i18n="clearCart">Clear cart</button>
+    </footer>
+  </aside>
+
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="product-dialog-title">
+    <button class="dialog-close" type="button" data-dialog-close aria-label="Close">×</button>
+    <div class="product-dialog__grid">
+      <div class="product-dialog__media"><img id="product-dialog-image" src="assets/products/moonberry-tart.svg" alt="" width="800" height="620"></div>
+      <div class="product-dialog__content">
+        <p class="product-dialog__badge" id="product-dialog-badge"></p>
+        <h2 id="product-dialog-title"></h2>
+        <p class="product-dialog__short" id="product-dialog-short"></p>
+        <div class="product-dialog__rating"><span>★★★★★</span><small id="product-dialog-rating"></small></div>
+        <p id="product-dialog-description"></p>
+        <div class="product-dialog__meta"><div><span data-i18n="allergens">Allergens</span><strong id="product-dialog-allergens"></strong></div><div><span data-i18n="availability">Availability</span><strong id="product-dialog-stock"></strong></div></div>
+        <div class="product-dialog__purchase"><strong id="product-dialog-price"></strong><div class="quantity-control"><button type="button" data-qty="minus" aria-label="Decrease quantity">−</button><output id="product-dialog-qty">1</output><button type="button" data-qty="plus" aria-label="Increase quantity">＋</button></div></div>
+        <button class="button button--primary button--wide" id="product-dialog-add" type="button"><span data-i18n="addToCart">Add to cart</span><span aria-hidden="true">＋</span></button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="checkout-dialog" id="checkout-dialog" aria-labelledby="checkout-title">
+    <button class="dialog-close" type="button" data-dialog-close aria-label="Close">×</button>
+    <div class="checkout-dialog__header"><p class="eyebrow" data-i18n="secureOrder">Secure order</p><h2 id="checkout-title" data-i18n="checkoutTitle">Where should the stars land?</h2><p data-i18n="checkoutLead">This demo does not charge a card. Connect your payment provider in the backend before accepting live orders.</p></div>
+    <form id="checkout-form" novalidate>
+      <div class="checkout-layout">
+        <div class="checkout-fields">
+          <div class="form-row"><label><span data-i18n="fullName">Full name</span><input name="customerName" type="text" minlength="2" maxlength="100" autocomplete="name" required></label><label><span data-i18n="emailAddress">Email address</span><input name="email" type="email" autocomplete="email" required></label></div>
+          <div class="form-row"><label><span data-i18n="phone">Phone</span><input name="phone" type="tel" autocomplete="tel" maxlength="30" required></label><label><span data-i18n="deliveryDate">Preferred date</span><input name="deliveryDate" type="date" required></label></div>
+          <fieldset class="fulfillment-options"><legend data-i18n="fulfillment">Fulfilment</legend><label><input type="radio" name="fulfillment" value="pickup" checked><span><strong data-i18n="pickup">Atelier pickup</strong><small data-i18n="pickupDetail">Free · Rue des Étoiles 17</small></span></label><label><input type="radio" name="fulfillment" value="delivery"><span><strong data-i18n="localDelivery">Local delivery</strong><small data-i18n="deliveryDetail">€8 · within central Genève</small></span></label></fieldset>
+          <label class="address-field" id="address-field" hidden><span data-i18n="deliveryAddress">Delivery address</span><input name="address" type="text" autocomplete="street-address" maxlength="200"></label>
+          <label><span data-i18n="orderNote">A note for us</span><textarea name="note" rows="3" maxlength="500" data-i18n-placeholder="notePlaceholder" placeholder="Allergies, gift message, timing…"></textarea></label>
+          <label class="consent-field"><input type="checkbox" name="consent" required><span data-i18n="consent">I confirm the order details and understand that this storefront is running in demo payment mode.</span></label>
+          <p class="form-error" id="checkout-error" role="alert"></p>
+        </div>
+        <aside class="checkout-summary"><h3 data-i18n="orderSummary">Order summary</h3><div id="checkout-items"></div><div class="checkout-totals"><div><span data-i18n="subtotal">Subtotal</span><strong id="checkout-subtotal">€0.00</strong></div><div><span data-i18n="delivery">Delivery</span><strong id="checkout-delivery">€0.00</strong></div><div class="checkout-total"><span data-i18n="total">Total</span><strong id="checkout-total">€0.00</strong></div></div><button class="button button--primary button--wide" id="place-order" type="submit"><span data-i18n="placeOrder">Place demo order</span><span aria-hidden="true">→</span></button><small data-i18n="paymentNotice">No card details are collected in this build.</small></aside>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="success-dialog" id="success-dialog" aria-labelledby="success-title">
+    <button class="dialog-close" type="button" data-dialog-close aria-label="Close">×</button>
+    <div class="success-dialog__icon" aria-hidden="true">✦</div><p class="eyebrow" data-i18n="orderReceived">Order received</p><h2 id="success-title" data-i18n="successTitle">Your constellation is reserved.</h2><p data-i18n="successText">A confirmation has been prepared. In production, your mail provider would send it automatically.</p><div class="order-reference"><span data-i18n="orderReference">Order reference</span><strong id="success-order-id"></strong></div><button class="button button--primary" type="button" data-dialog-close data-i18n="continueShopping">Continue shopping</button>
+  </dialog>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <noscript><div class="noscript">This storefront needs JavaScript for catalog, cart and checkout functionality.</div></noscript>
+
+  <script src="config.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

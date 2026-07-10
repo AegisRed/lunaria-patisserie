@@ -1,0 +1,32 @@
+services:
+  api:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      DOCS_ENABLED: "false"
+      DATABASE_PATH: /app/data/lunaria.sqlite3
+      CORS_ORIGINS: http://localhost:8080
+      ALLOWED_HOSTS: localhost,127.0.0.1
+      ADMIN_API_KEY: ${ADMIN_API_KEY:-change-this-before-production}
+      DELIVERY_FEE_CENTS: ${DELIVERY_FEE_CENTS:-800}
+    volumes:
+      - lunaria_data:/app/data
+    expose:
+      - "8000"
+
+  web:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend/dist:/usr/share/nginx/html:ro
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./deploy/config.js:/usr/share/nginx/html/config.js:ro
+
+volumes:
+  lunaria_data:
